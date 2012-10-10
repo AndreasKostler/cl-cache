@@ -4,11 +4,11 @@ An underlying cache API as base abstraction for implementing new synchronous cac
 
 Implementations of some basic caching strategies
 
-First-in-first-out (FIFOCache)
-Least-recently-used (LRUCache)
-Least-used (LUCache)
-Time-to-live (TTLCache)
-Naive cache (BasicCache)
+* First-in-first-out (FIFOCache)
+* Least-recently-used (LRUCache)
+* Least-used (LUCache)
+* Time-to-live (TTLCache)
+* Naive cache (BasicCache)
 
 Implementation of an efficient buffer replacement policy based on the low inter-reference recency set algorithm (LIRSCache) described in the LIRS paper
 
